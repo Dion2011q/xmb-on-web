@@ -296,19 +296,10 @@ body {
   opacity: 0;
   transition: opacity 3s ease-in-out;
 }
-.title h1 {
-  font-size: 50px;
-  font-weight: 500;
-  letter-spacing: -2px;
-  color: #dadada;
-  text-shadow: 2px 2px 5px black;
-}
-.title p {
-  font-size: 32px;
-  margin-top: -40px;
-  letter-spacing: -2px;
-  color: #dadada;
-  text-shadow: 2px 2px 5px black;
+.title img {
+  width: 30vw;
+  height: auto;
+  filter: drop-shadow(0 0 0.25rem black);
 }
 
 .warning {
